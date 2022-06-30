@@ -3,7 +3,10 @@
 Repository of the Final Thesis of the Master in Fundamental Principles of Data Science (University of Barcelona).
 
 _Author: Núria Camí_
+
 _Supervisors: Miquel Duran-Frigola, Gemma Turon, Jordi Vitrià_
+
+## Introduction
 
 <!-- Exploitation of the Medicines for Malaria Venture (MMV) dataset on the activity of putative antimalarial compounds in asexual blood stages of the Plasmodium Falciparum parasite. Usage of the [MolMap](https://github.com/shenwanxiang/bidd-molmap) library as a DL model for predicting the activity of the molecules against the pathogen that causes Malaria.
  -->
@@ -11,8 +14,7 @@ _Supervisors: Miquel Duran-Frigola, Gemma Turon, Jordi Vitrià_
 ## Installation
 
 1. Install the necessary pip and conda packages from the project environment:
-    - Download the ```environment.yml``` and create the environment from this file: 
-    ```conda env create -f environment.yml```
+    - Download the ```environment.yml``` and create the environment from this file: ```conda env create -f environment.yml```
     - Activate the new environment: ```conda activate molmap```
     - Verify that the new environment was installed correctly: ```conda env list```
 
@@ -43,17 +45,21 @@ git lfs install
 
 This repository includes the following directories:
 
-- data: dataset available for reproducing the code.
+- **data**: dataset available for reproducing the code:
     > CYP PubChem BioAssay CYP 1A2, 2C9, 2C19, 2D6, 3A4 inhibition, from  [Chembench](https://github.com/shenwanxiang/ChemBench/tree/master/src/chembench/data_and_index/CYP450)
-- files: contains the files saved on disk generated for the different implementations.
-- notebooks: contains all the Jupyter Notebooks developed during the project, which is organized by datasets:
+- **files**: objects and models saved on disk.
+- **notebooks**: Jupyter Notebooks developed during the project, organized by datasets:
     - CYP450: baselines and MolMap implemented to a small dataset. 
-    - large_dataset: notebooks for replicating MolMap implementation in a larger dataset. 
+    - large_dataset*: notebooks for replicating MolMap implementation in a larger dataset. 
+        > baselines: Random Forest and a basic CNN.
+        > MolMap: Ensemble and Generator approacch applied to MolMap.
     - MNIST: experiments performed to test the robustness of image construction of MolMap.
-- src: source files containing logic classes.
-- tools: [bidd-molmap](https://github.com/shenwanxiang/bidd-molmap) cloned repository including a new class [tools/bidd-molmap/molmap/model/model.py](MultiClassEstimator_largedata) that allows training the MolMapNet model with generators. 
+- **src**: source files containing logic classes.
+- **tools**: [bidd-molmap](https://github.com/shenwanxiang/bidd-molmap) cloned repository including a new class [MultiClassEstimator_largedata](tools/bidd-molmap/molmap/model/model.py) that allows training the MolMapNet model with generators. 
 
-And finally, the PDF of the [project report](report.pdf).
+*For simplicity, notebooks of both repositories CYP450 and large_dataset have been tested with the same dataset (CYP PubChem BioAssay CYP 1A2, 2C9, 2C19, 2D6, 3A4 inhibition), although the large_dataset notebooks are prepared for being tested with larger datasets, as its name indicates.
+
+And finally, the document for the [project report](report.pdf).
 
 ## Learn more
 
