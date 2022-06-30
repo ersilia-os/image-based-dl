@@ -4,7 +4,7 @@ Repository of the Final Thesis of the Master in Fundamental Principles of Data S
 
 _Author:_ Núria Camí.
 
-_Supervisors:_ Miquel Duran-Frigola, Gemma Turon, Jordi Vitrià.
+_Supervisors:_ Miquel Duran-Frigola (Ersilia), Gemma Turon (Ersilia), Jordi Vitrià (UB).
 
 ## Introduction
 
@@ -53,7 +53,7 @@ This repository includes the following directories:
         > Random Forest and a basic CNN as a baselines, Ensemble and Generator approaches for MolMap.
     - **MNIST**: experiments performed to test the robustness of image construction of MolMap.
 - **src**: source files containing logic classes.
-- **tools**: [bidd-molmap](https://github.com/shenwanxiang/bidd-molmap) cloned repository including a new class [MultiClassEstimator_largedata](tools/bidd-molmap/molmap/model/model.py) that allows training the MolMapNet model with generators. 
+- **tools**: [bidd-molmap](https://github.com/shenwanxiang/bidd-molmap) cloned repository including a new class [MultiClassEstimator_largedata](tools/bidd-molmap/molmap/model/model.py) that allows training the MolMapNet with generators. 
 
 *_For simplicity, notebooks of both repositories CYP450 and large_dataset have been tested with the same dataset (CYP PubChem BioAssay CYP 1A2, 2C9, 2C19, 2D6, 3A4 inhibition), although the large_dataset notebooks are prepared for being tested with larger datasets, as its name indicates._
 
@@ -61,5 +61,5 @@ And finally, the document for the [project report](report.pdf).
 
 ## Learn more
 
-The [Ersilia Open Source Initiative](https://ersilia.io) is on a mission to strenghten research capacity in low income countries. Please reach out to us if you want to contribute: [hello@ersilia.io]()
+The [Ersilia Open Source Initiative](https://ersilia.io) is on a mission to strengthen research capacity in low income countries. Please reach out to us if you want to contribute: [hello@ersilia.io]()
 
