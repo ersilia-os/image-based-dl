@@ -45,9 +45,9 @@ git lfs install
 This repository includes the following directories:
 
 - **data**: dataset available for reproducing the code:
-    > CYP PubChem BioAssay CYP 1A2, 2C9, 2C19, 2D6, 3A4 inhibition, from  [Chembench](https://github.com/shenwanxiang/ChemBench/tree/master/src/chembench/data_and_index/CYP450)
+    > CYP PubChem BioAssay CYP 1A2, 2C9, 2C19, 2D6, 3A4 inhibition, from  [Chembench](https://github.com/shenwanxiang/ChemBench/tree/master/src/chembench/data_and_index/CYP450).
 - **files**: objects and models saved on disk.
-- **notebooks**: Jupyter Notebooks developed during the project, organized by datasets:
+- **notebooks**: Jupyter Notebooks, organized by datasets:
     - **CYP450**: baselines and MolMap implemented to a small dataset. 
     - **large_dataset***: notebooks for replicating MolMap implementation in a larger dataset. 
         > Random Forest and a basic CNN as a baselines, Ensemble and Generator approaches for MolMap.
@@ -55,7 +55,7 @@ This repository includes the following directories:
 - **src**: source files containing logic classes.
 - **tools**: [bidd-molmap](https://github.com/shenwanxiang/bidd-molmap) cloned repository including a new class [MultiClassEstimator_largedata](tools/bidd-molmap/molmap/model/model.py) that allows training the MolMapNet model with generators. 
 
-*For simplicity, notebooks of both repositories CYP450 and large_dataset have been tested with the same dataset (CYP PubChem BioAssay CYP 1A2, 2C9, 2C19, 2D6, 3A4 inhibition), although the large_dataset notebooks are prepared for being tested with larger datasets, as its name indicates.
+*_For simplicity, notebooks of both repositories CYP450 and large_dataset have been tested with the same dataset (CYP PubChem BioAssay CYP 1A2, 2C9, 2C19, 2D6, 3A4 inhibition), although the large_dataset notebooks are prepared for being tested with larger datasets, as its name indicates._
 
 And finally, the document for the [project report](report.pdf).
 
