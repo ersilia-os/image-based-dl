@@ -2,14 +2,13 @@
 
 Repository of the Final Thesis of the Master in Fundamental Principles of Data Science (University of Barcelona).
 
-_Author: Núria Camí_
+_Author:_ Núria Camí.
 
-_Supervisors: Miquel Duran-Frigola, Gemma Turon, Jordi Vitrià_
+_Supervisors:_ Miquel Duran-Frigola, Gemma Turon, Jordi Vitrià.
 
 ## Introduction
 
-<!-- Exploitation of the Medicines for Malaria Venture (MMV) dataset on the activity of putative antimalarial compounds in asexual blood stages of the Plasmodium Falciparum parasite. Usage of the [MolMap](https://github.com/shenwanxiang/bidd-molmap) library as a DL model for predicting the activity of the molecules against the pathogen that causes Malaria.
- -->
+This repository contains all code produced for the project, mainly focused on the implementation of the [MolMap](https://github.com/shenwanxiang/bidd-molmap) library as a Deep Learning model for predicting the activity (active/inactive) of experiments on chemical compounds. For simplicity, the code has been reproduced with a small dataset, although specific notebooks have been created so that it can be reproduced with large datasets. For full explanation, please refer to the [report document](report.pdf). 
 
 ## Installation
 
@@ -49,11 +48,10 @@ This repository includes the following directories:
     > CYP PubChem BioAssay CYP 1A2, 2C9, 2C19, 2D6, 3A4 inhibition, from  [Chembench](https://github.com/shenwanxiang/ChemBench/tree/master/src/chembench/data_and_index/CYP450)
 - **files**: objects and models saved on disk.
 - **notebooks**: Jupyter Notebooks developed during the project, organized by datasets:
-    - CYP450: baselines and MolMap implemented to a small dataset. 
-    - large_dataset*: notebooks for replicating MolMap implementation in a larger dataset. 
-        > baselines: Random Forest and a basic CNN.
-        > MolMap: Ensemble and Generator approacch applied to MolMap.
-    - MNIST: experiments performed to test the robustness of image construction of MolMap.
+    - **CYP450**: baselines and MolMap implemented to a small dataset. 
+    - **large_dataset***: notebooks for replicating MolMap implementation in a larger dataset. 
+        > Random Forest and a basic CNN as a baselines, Ensemble and Generator approaches for MolMap.
+    - **MNIST**: experiments performed to test the robustness of image construction of MolMap.
 - **src**: source files containing logic classes.
 - **tools**: [bidd-molmap](https://github.com/shenwanxiang/bidd-molmap) cloned repository including a new class [MultiClassEstimator_largedata](tools/bidd-molmap/molmap/model/model.py) that allows training the MolMapNet model with generators. 
 
