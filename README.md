@@ -1,8 +1,6 @@
 # Image-based chemical property descriptors for antimalarial drug screening
 
--------
-
-Repository of the Final Thesis of the Master inFundamental Principles of Data Science (University of Barcelona).
+Repository of the Final Thesis of the Master in Fundamental Principles of Data Science (University of Barcelona).
 
 _Author: Núria Camí_
 
