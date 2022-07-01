@@ -55,7 +55,7 @@ This repository includes the following directories:
 - **src**: source files containing logic classes.
 - **tools**: [bidd-molmap](https://github.com/shenwanxiang/bidd-molmap) cloned repository including a new class [MultiClassEstimator_largedata](tools/bidd-molmap/molmap/model/model.py) that allows training the MolMapNet with generators. 
 
-*_For simplicity, notebooks of both repositories CYP450 and large_dataset have been tested with the same dataset (CYP PubChem BioAssay CYP 1A2, 2C9, 2C19, 2D6, 3A4 inhibition), although the large_dataset notebooks are prepared for being tested with larger datasets, as its name indicates._
+*_For simplicity, notebooks from both folders CYP450 and large_dataset have been tested with the same dataset (CYP PubChem BioAssay CYP 1A2, 2C9, 2C19, 2D6, 3A4 inhibition), although the large_dataset ones have been specially created for applying MolMap to larger datasets, as its name indicates._
 
 And finally, the document for the [project report](report.pdf).
 
