@@ -59,7 +59,8 @@ This repository includes the following directories:
 
 And finally, the document for the [project report](report.pdf).
 
-## Learn more
+## About us
+The [Ersilia Open Source Initiative](https://ersilia.io) is a Non Profit Organization ([1192266](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5170657/full-print)) with the mission is to equip labs, universities and clinics in LMIC with AI/ML tools for infectious disease research.
 
-The [Ersilia Open Source Initiative](https://ersilia.io) is on a mission to strengthen research capacity in low income countries. Please reach out to us if you want to contribute: [hello@ersilia.io]()
+[Help us](https://www.ersilia.io/donate) achieve our mission or [volunteer](https://www.ersilia.io/volunteer) with us!
 
